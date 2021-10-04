@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "7kttube",
+  "version": "1.0",
+
+  "description": "Restore the old YouTube style",
+
+  "icons": {
+    "48": "7kttube.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["7kttube.js"]
+    }
+  ]
+
+}
